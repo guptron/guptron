@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>dropdownmenu</title>
+	<meta name = "viewport" content = "width-device-width ,initial-scale = 1">
+	<link rel="stylesheet" type="text/css" href="dropdown.css">
+	</head>
+	<style type="text/css">
+		.color{
+		color:tomato;
+		}
+	</style>
+	<body>
+		<div id="black"></div>
+		<div class = "entire">
+			<div class = "menu" id = "su">
+				<div class = "logo">guptron.com
+				<button id = "icon" onclick="myFunction()">
+		<div class="icon"></div>
+		<div class="icon"></div>
+		<div class="icon"></div>
+ 	</button></div>
+				<div class  ="Man" id = "gpta">
+				<div class = "man">home
+				</div>
+				<div class = "man" id = "drop">login
+					<div class = "dropdown">
+					<li class = "ag"><a  href="#">contact</a></li>
+					<li class = "bg"><a href="#">friends</a></li>
+					<li class = "cg"><a href="#">call </a></li>
+					<li class = "dg"><a href="#"> rate us</a></li>
+				</div>
+				</div>
+				<div class = "man">code
+				</div>
+				<div class = "man">info 
+				</div>
+				<div class = "man">rate us 
+				</div>
+			</div>
+				<div  id  = "search" >
+					<input id = "shottam" type = "text" placeholder
+					= "enter something"/>
+				</div>
+
+			</div>
+			<div class= "suhani" id = "suhani" >
+				<div class = "sub">
+				<h1>purushottam gupta </h1>
+				<p>these site is made by purushottam gupta . it's beautiful site we only concentrate on it css .<br/>it's not a dyanamic site <br/>
+				it's just a simple webapage and beautifull page it include some css and html and small amount of javascript  source code is available for these webpage . </p>
+			</div>
+			</div>
+			<div class = "part6">
+	<p>
+		web development is very common in these day you can found so many way to create your own website<br/>
+		 bit of information. These cells are rarely read or written individually. Instead, they are handleding roups of ﬁxed size called words. The memory is organized so that one word can be stored or retrieved in one basic operation. The number of bits in each word is referred to as the word length of the computer, typically 16, 32, or 64 bits. To provide easy access to any word in the memory, a distinct address is associated with each word location. Addresses are consecutive numbers, starting from 0, that identify successive locations. Aparticular word is accessed by specifying its address and issuing a control command to the memory that starts the storage or retrieval process. Instructions and data can be written into or read from the memory under the control of theprocessor. It isessential tobe able to access any word location in the memory as quickly as possible. Amemory in which any location can be accessed in a short and ﬁxed amount of time after specifying its address is called a random-access memory (RAM). The time required to access one word is called the memory access time. This time is independent of the location of the word being accessed. It typically ranges from a few nanoseconds (ns) to about 100 ns for current RAM units. Cache Memory As an adjunct to the main memory, a smaller, faster RAM unit, called a cache, is used to hold sections of a program that are currently being executed, along with any associated data. The cache is tightly coupled with the processor and is usually contained on the same integrated-circuit chip.</p>
+		 <br/>
+		<p>
+		web development is very common in these day you can found so many way to create your own website<br/>
+		 bit of information. These cells are rarely read or written individually. Instead, they are handleding roups of ﬁxed size called words. The memory is organized so that one word can be stored or retrieved in one basic operation. The number of bits in each word is referred to as the word length of the computer, typically 16, 32, or 64 bits. To provide easy access to any word in the memory, a distinct address is associated with each word location. Addresses are consecutive numbers, starting from 0, that identify successive locations. Aparticular word is accessed by specifying its address and issuing a control command to the memory that starts the storage or retrieval process. Instructions and data can be written into or read from the memory under the control of theprocessor. It isessential tobe able to access any word location in the memory as quickly as possible. Amemory in which any location can be accessed in a short and ﬁxed amount of time after specifying its address is called a random-access memory (RAM). The time required to access one word is called the memory access time. This time is independent of the location of the word being accessed. It typically ranges from a few nanoseconds (ns) to about 100 ns for current RAM units. Cache Memory As an adjunct to the main memory, a smaller, faster RAM unit, called a cache, is used to hold sections of a program that are currently being executed, along with any associated data. The cache is tightly coupled with the processor and is usually contained on the same integrated-circuit chip.</p></div>
+		</div>
+		<footer>
+			<!--
+		<div class = "foot">
+			<p> 
+				these webpage is made by purushottam gupta . gtron is company which make responsive site for free.<br/>
+
+			gtron provide contain for those student 
+			who want to be a web developer.<br/>
+			<b>thank  you </b></p>-->
+			<div class="dark">
+				<div class = "right">
+					<div class = "pr">
+					<li >follow us </li>
+					<li>donate us some money </li>
+					<li>mahakali mandir</li>
+					<li>bastiwala compaound</li>
+					<li>bhavans college </li>
+					<li>thank you </li>
+					
+					</div>
+				</div>
+					<div class="left">
+						<div class = "pl">
+					<li>follow us </li>
+					<li>gmail </li>
+					<li>guptron1@gmail.com</li>
+					<li>thank you </li>
+					
+					</div>
+					</div>
+					<div class = "last"> 
+						<h1>follow us on these site </h1>
+				<img src="insta.png" width = "50px" height="50px">
+				
+				<img src="whatsapp.png" width = "50px" height="50px">
+			</div>
+
+				
+
+			</div>
+			<button class = "puru" onclick="black()">click me</button>
+ 
+
+		</div>
+	</footer>
+	<script>
+		function color(){
+			var v = document.getElementById("suhani");
+			v.classList.toggle("color");
+		}
+		function black(){
+			var p = document.getElementById("black");
+			p.style.height = "100%";
+			p.style.width = "100%";
+			p.style.background = "black";
+			p.style.opacity = "0.8";
+			p.style.transition = "2s";
+		}
+		function myFunction() {
+
+var pu = document.getElementById("gpta");
+var ru = document.getElementById("search");
+if (pu.style.display && ru.style.display   === "block"){
+	pu.style.display = "none";
+	ru.style.display  = "none";
+}
+else {
+	pu.style.display = "block";
+	ru.style.display = "block";
+  }
+}
+
+	</script>
+
+	</body>
+</html>
